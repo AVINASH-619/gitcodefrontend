@@ -1,0 +1,69 @@
+.start
+{
+    display: flex;
+    justify-content: space-around;
+}
+.left
+{
+    height: 82vh;
+    overflow-y: auto;
+    border: 1px solid black;
+    width: 70%;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+.lable
+{
+    color: white;
+    margin-left: 10px;
+}
+.topBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #023859 linear-gradient(#023859,#02456c);
+    background-color: rgb(2, 56, 89);
+    height: 8vh;
+}
+
+.runbtn{
+    background-color:orange;
+    transition: background-color 0.3s,box-shadow 0.3s;
+}
+
+.clrbtn
+{
+    background-color: red
+}
+.gitbtn
+{
+    background-color: green;
+}
+.cmtbtn{
+    background-color: rgb(5, 189, 199)
+}
+.runbtn,.clrbtn,.gitbtn,.cmtbtn
+{
+    padding: 10px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.runbtn:hover{
+    background-color: #CC0000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.top,.bottom{
+  margin-top: 10px;  
+  height: 40vh;
+  overflow-y: auto;
+  border: 1px solid black;
+  width: 450px
+}
